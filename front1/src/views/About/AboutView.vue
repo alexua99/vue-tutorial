@@ -55,7 +55,7 @@ export default {
 
 <template>
   <div class="about">
-    <h1>This is an about page {{ counter }}</h1>
+    <h1>This is an about page {{  counter  }}</h1>
 
     <button @click="increment">+</button>
     <button @click="decrement">-</button>
@@ -70,7 +70,7 @@ export default {
     <div class="about__container">
       <div class="cart" v-for="(users, index) in items">
         <h3 class="cart__title">
-          {{ users.name }}
+          {{  users.name  }}
         </h3>
         <img :src="users.url" :alt="users.name" width="80" />
         <Button :btnText="users.but" />
