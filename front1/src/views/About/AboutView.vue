@@ -67,14 +67,8 @@ export default {
        }
      -->
 
-    <div class="about__container">
-      <div class="cart" v-for="(users, index) in items">
-        <h3 class="cart__title">
-          {{  users.name  }}
-        </h3>
-        <img :src="users.url" :alt="users.name" width="80" />
-        <Button :btnText="users.but" />
-      </div>
+    <div class="about__container" v-for="(users, index) in items">
+     
     </div>
 
 
