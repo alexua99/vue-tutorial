@@ -1,0 +1,33 @@
+/* Desktop first */
+.out {
+    font-size: 10px;
+}
+
+@media (max-width: 991px) {
+
+    /* Tablete first */
+    .out {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Tablete first */
+    .out {
+        font-size: 8px;
+    }
+}
+
+
+/* Mibile first */
+
+.out {
+    font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+    .out {
+        font-size: 16px;
+    }
+}

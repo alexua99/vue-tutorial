@@ -71,4 +71,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 0 40px;
+  flex: 1 2 50%;
 }
